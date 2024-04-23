@@ -1,0 +1,320 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.navbar
+{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 1rem;
+    position: relative;
+    z-index: 10;
+}
+
+.nav-items
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#logo
+{
+    height: 2.5rem;
+}
+
+.dropdown-menu
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dropdown-menu-img
+{
+    padding:0.2rem 0 0 0.5rem;
+    position: absolute;
+}
+
+#lang
+{
+    background-color: black;
+    color: white;
+    padding: 0.45rem 0.25rem 0.25rem 1.5rem;
+    border-radius: 4px;
+}
+
+.login-btn button
+{
+    color: white;
+    background-color: red;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+}
+
+.bg
+{
+    top: 0;
+    position: relative;
+    background-image: url(assets/images/bg.jpg);
+    height: 95vh;
+}
+
+.overlay
+{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.cut
+{
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(35,35,35,0.88);
+}
+
+.hero
+{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    color: white;
+    gap: 1rem;
+}
+
+.hero h1
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero p
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.email
+{
+    gap: 0.5rem;
+    display: flex;
+    position: relative;
+    z-index: 10;
+}
+
+.email-input
+{
+    border-radius: 4px;
+    background-color: black;
+    padding: 1rem 8rem 1rem 0.5rem;
+    border: solid 1px gray;
+    color: white;
+}
+
+.email button
+{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    width: auto;
+    font-weight: 550;
+    padding: 0.5rem 1rem;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.content
+{
+    background-color: black;
+    color: white;
+}
+
+.text-box h1
+{
+    font-size: 3rem;
+}
+
+.text-box p
+{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.image-box1,.image-box3
+{
+    position: relative;
+    z-index: 10;
+}
+
+.image-box1 video
+{
+    bottom: 26%;
+    left: 13.5%;
+    width: 76.5%;
+    position: absolute;
+    z-index: -1;
+}
+
+.image-box2
+{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    align-items: baseline;
+    justify-items: center;
+    justify-content: center;
+}
+
+.image-box2-bottom
+{
+    width: 50%;
+    border: solid 1px gray;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+#boxshot
+{
+    padding: 0.25rem 0;
+    height: 5rem;
+}
+
+#gif
+{
+    height: 3rem;
+}
+
+.image-box2-bottom-para p:nth-child(1)
+{
+    font-weight: 500;
+}
+
+.image-box2-bottom-para p:nth-child(2)
+{
+    color: blue;
+}
+
+.image-box3 video
+{
+    bottom: 46%;
+    left: 19.5%;
+    width: 63.5%;
+    position: absolute;
+    z-index: -1;
+}
+
+.FAQ
+{
+    padding: 4rem 0 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    gap: 0.5rem;
+}
+
+.FAQ h1
+{
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.FAQ h3
+{
+    padding-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.questions
+{
+    padding: 1.75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    background-color: #2d2d2d;
+}
+
+.questions p
+{
+    font-size: 1.5rem;
+}
+
+.questions img
+{
+    height: 2rem;
+}
+
+.footer
+{
+    background-color: black;
+    color: rgba(255,255,255,0.7);
+    font-size: 0.9rem;
+    padding: 4rem 0 5rem 0;
+}
+
+.call
+{
+    width: 73%;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.lists
+{
+    width: 73%;
+    margin: auto;
+}
+
+
+.lists
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.li
+{
+    display: grid;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.li a,.call a
+{
+    color: inherit;
+}
