@@ -1,7 +1,7 @@
-This website is static, built solely with HTML and CSS.
+This website is static, created entirely using HTML and CSS.
 
-All the images, video and gifs used in the website are placed in the assets folder.
+All media files, including images, videos, and gifs, are stored in the assets folder. 
 
-It is simply a clone of https://www.netflix.com/in/
+It's designed as a replica of the [Netflix homepage](https://www.netflix.com/in/)
 
-Click [here](https://jugal-01.github.io/Netflix-Clone/) to view the website
+You can access the website by clicking [here](https://jugal-01.github.io/Netflix-Clone/).
